@@ -1,0 +1,5 @@
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.dll
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.pdb
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.csprojResolveAssemblyReference.cache
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.dll
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.pdb

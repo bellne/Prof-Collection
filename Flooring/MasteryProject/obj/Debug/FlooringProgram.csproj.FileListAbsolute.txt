@@ -1,0 +1,12 @@
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\MasteryProject.exe.config
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\MasteryProject.exe
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\MasteryProject.pdb
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\FlooringProgram.Data.dll
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\FlooringProgram.Models.dll
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\MasteryProject.BLL.dll
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\FlooringProgram.Data.pdb
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\FlooringProgram.Models.pdb
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\bin\Debug\MasteryProject.BLL.pdb
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\obj\Debug\FlooringProgram.csprojResolveAssemblyReference.cache
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\obj\Debug\MasteryProject.exe
+C:\_classroomRepos\_Teamwork\NateTyKari\tykarinatemastery\MasteryProject\MasteryProject\obj\Debug\MasteryProject.pdb

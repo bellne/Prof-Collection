@@ -1,0 +1,5 @@
+C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.BLL\bin\Debug\BattleShip.BLL.dll
+C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.BLL\bin\Debug\BattleShip.BLL.pdb
+C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.BLL\obj\Debug\BattleShip.BLL.csprojResolveAssemblyReference.cache
+C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.BLL\obj\Debug\BattleShip.BLL.dll
+C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.BLL\obj\Debug\BattleShip.BLL.pdb
