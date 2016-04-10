@@ -1,0 +1,129 @@
+﻿@model DVDLibrary.Models.Movie
+
+@{
+    ViewBag.Title = "Get";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h1>@Model.Title</h1>
+</div>
+
+<div class="row">
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Release Date</h3>
+            </div>
+            <div class="panel-body">
+                @Model.ReleaseDate
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">MPAA Rating</h3>
+            </div>
+            <div class="panel-body">
+                @Model.MovieMPAARating.MPAARating
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Viewer Notes</div>
+            </div>
+            <div class="panel-body">
+                @Model.UserNotes
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Actors</div>
+            </div>
+            <div class="panel-body">
+                @Model.Actors
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Director(s)</h3>
+            </div>
+            <div class="panel-body">
+                @Model.DirectorName
+            </div>
+        </div>
+    </div>
+</div>
+   
+<div class="row">
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Studio</div>
+            </div>
+            <div class="panel-body">
+                @Model.Studio
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Viewer Rating</div>
+            </div>
+            <div class="panel-body">
+                @Model.MovieUserRating.UserRating
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Borrower</div>
+            </div>
+            <div class="panel-body">
+                @Model.BorrowerName
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Date Borrowed</div>
+            </div>
+            <div class="panel-body">
+                @Model.DateBorrowed
+            </div>
+        </div>
+    </div>
+   
+    <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Date Returned</div>
+            </div>
+            <div class="panel-body">
+                @Model.DateReturned
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

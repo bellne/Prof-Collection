@@ -1,0 +1,113 @@
+﻿@model DVDLibrary.Models.AddMovieVM
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Edit Movie</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("Edit", "DVD", FormMethod.Post))
+        {
+            @Html.HiddenFor(m=>m.Movie.MovieID)
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Title</label>
+                    @Html.TextBoxFor(m=>m.Movie.Title, new { @class ="form-control"})
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">User Rating</label>
+                    @Html.DropDownListFor(m => m.Movie.UserRatingId, Model.StarList, Model.Movie.UserRatingId.ToString(), new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Release Date</label>
+                    <div class="input-group date' id='datetimepicker1">
+                        @Html.TextBoxFor(m => m.Movie.ReleaseDate, new { @class = "form-control" })
+                        @*<input type="text" class="form-control" />*@
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">User Notes</label>
+                    @Html.TextBoxFor(m => m.Movie.UserNotes, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">MPAA Rating</label>
+                    @Html.DropDownListFor(m => m.Movie.MPAARatingId, Model.RatingList, Model.Movie.MPAARatingId.ToString(), new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Actors</label>
+                    @Html.TextBoxFor(m => m.Movie.Actors, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Director Name</label>
+                    @Html.TextBoxFor(m => m.Movie.DirectorName, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Borrower Name</label>
+                    @Html.TextBoxFor(m => m.Movie.BorrowerName, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Date Borrowed</label>
+                    <div class="input-group date' id='datetimepicker1">
+                        @Html.TextBoxFor(m => m.Movie.DateBorrowed, new { @class = "form-control" })
+                        @*<input type="text" class="form-control" />*@
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Date Returned</label>
+                    <div class="input-group date id=datetimepicker1">
+                        @Html.TextBoxFor(m => m.Movie.DateReturned, new { @class = "form-control" })
+                        @*<input type="text" class="form-control" />*@
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-primary pull-right">Save</button>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        }
+
+    </div>
+    <script type="text/javascript">
+            $(function () {
+                $(".datetimepicker1").datetimepicker({
+                    format: "MM dd yyyy"
+                });
+            });
+    </script>
+</div>
+
+

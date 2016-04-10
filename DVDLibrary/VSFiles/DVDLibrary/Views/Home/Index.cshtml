@@ -1,0 +1,82 @@
+﻿@model List<DVDLibrary.Models.Movie>
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<nav class="navbar navbar-inverse navbar-fixed-top">*@
+@*<div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle glyphicon-collapse-down" data-toggle="collapse" data-target="#navbar" aria-expanded="false" area-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand">DVD Library</p>
+            </div>
+        </div>
+    </nav>*@
+
+<div class="container">
+    <div class="page-header">
+        <h1>DVD Library</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-offset-8 col-xs-4">
+            @using (Html.BeginForm("Index", "Home"))
+            {
+                <p>Title: @Html.TextBox("searchString") <input type="submit" value="Search" /></p>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Rating</th>
+                        <th>User Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var movie in Model)
+                    {
+                        <tr>
+                            <td>@Html.ActionLink(movie.Title, "Get", "DVD", new { id = movie.MovieID }, null)</td>
+                            <td data-toggle="tooltip" title="@movie.MovieMPAARating.MPAADescription">@movie.MovieMPAARating.MPAARating</td>
+                            <td data-toggle="tooltip" title="@movie.MovieUserRating.UserRatingDescription">@movie.MovieUserRating.UserRating</td>
+                            <td>
+                                <form action="@Url.Action("Edit", "DVD", new { id = movie.MovieID })" method="get">
+                                    <button class="btn btn-sm">Edit</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="@Url.Action("Delete", "DVD", new { id = movie.MovieID })" method="post">
+                                    <button class="btn btn-sm">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-5">
+        </div>
+        <div class="col-xs-2">
+            <form action="@Url.Action("Add", "DVD")">
+                <button class="btn btn-default">Add a Movie</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
