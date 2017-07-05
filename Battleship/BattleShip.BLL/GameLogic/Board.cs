@@ -233,5 +233,10 @@ namespace BattleShip.BLL.GameLogic
 
             return false;
         }
+
+        private void VerifyWinner()
+        {
+            // Code tbd...
+        }
     }
 }

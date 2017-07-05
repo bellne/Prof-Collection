@@ -6,3 +6,6 @@ C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.UI\bi
 C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.UI\obj\Debug\BattleShip.UI.csprojResolveAssemblyReference.cache
 C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.UI\obj\Debug\BattleShip.UI.exe
 C:\_classroomRepos\_Teamwork\NateAndGreg\gregandnateteamworktwo\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
+C:\Users\nbell\PersonalProjects\Github Repos\Prof-Collection\Battleship\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Users\nbell\PersonalProjects\Github Repos\Prof-Collection\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Users\nbell\PersonalProjects\Github Repos\Prof-Collection\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
